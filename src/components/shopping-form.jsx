@@ -22,7 +22,7 @@ var ShoppingForm = React.createClass({
 	},
 	render: function () {
 		return (
-			<div class="form-inline" role="form">
+			<div className="form-inline" role="form">
 				<div className="form-group">
 					<input type="text" placeholder="Produto" ref="name" className="form-control" />
 				</div>
