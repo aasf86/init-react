@@ -1,0 +1,22 @@
+.form-group {
+    margin-right: 10px;
+}
+.example-enter {
+   transform: translateX(-100%)
+}
+ 
+
+.example-enter.example-enter-active {
+   transform: translateX(0);
+  transition: transform  500ms ease-in;
+}
+
+ 
+.example-leave {
+     transform: translateX(0);
+}
+
+.example-leave.example-leave-active {
+   transform: translateX(100%);
+  transition: transform 300ms ease-in;
+}
